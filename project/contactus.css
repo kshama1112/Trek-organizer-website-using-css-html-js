@@ -1,0 +1,85 @@
+
+#border{
+    border: 2px solid black;
+    width: 80px;height: 30px;
+    text-align: center;
+    padding: 20px 2px 20px 1px ;
+    border-radius: 50%;
+    font-size: larger;
+    box-shadow: 2px 5px 7px black
+    ;
+}
+.t{  border: 2px solid black;
+    width: 80px;height: 30px;
+    text-align: center;
+    padding: 20px 2px 20px 1px ;
+    border-radius: 50%;
+    font-size: larger;
+    box-shadow: 2px 5px 7px black;
+   margin: 10px 0px    ;
+
+}
+.i{border: 2px solid black;
+    width: 80px;height: 30px;
+    text-align: center;
+    padding: 20px 2px 20px 1px ;
+    border-radius: 50%;
+    font-size: larger;
+    box-shadow: 2px 5px 7px black;
+   margin: 10px 0px    ;
+
+
+}
+.G{border: 2px solid black;
+    width: 80px;height: 30px;
+    text-align: center;
+    padding: 20px 2px 20px 1px ;
+    border-radius: 50%;
+    font-size: larger;
+    box-shadow: 2px 5px 7px black;
+   margin: 10px 0px    ;
+   text-decoration: none;
+
+}
+.maindiv{
+    text-decoration: none;
+}
+.navb{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 10px 10px 10px;
+    background: linear-gradient(transparent,green);
+    text-decoration: none;
+    margin: 0px; 
+    
+}
+.sticky{
+    justify-content: flex-end;
+    background: linear-gradient(0deg,transparent,skyblue,skyblue,skyblue);
+    
+}
+
+/* content in nav bar */
+.nbar{
+    margin: 0px 40px 0px 10px;
+    font-size: larger;
+    font-style: black;
+   
+}
+.nbar:hover{
+    /* border: 2px solid black; */
+   background-color:  skyblue;
+
+}
+
+.nbar::placeholder{
+    font-size: larger;
+    
+}
+a:link{
+    text-decoration: none;
+    cursor: pointer;}
+h1{
+        display:inline;
+       font-size:40px; 
+    }    

@@ -1,0 +1,80 @@
+/* name */
+.main{
+    background-image: url(./chanarayana\ durga.avif);
+    width: 90vw;
+    height: 35vw;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: xx-large;
+    padding: 100px 60px 40px;
+    color: aliceblue;
+    
+}
+/* trek details overview */
+.details{
+    display: flex;
+    justify-content: space-between;
+    
+}
+table{
+    width: 90%;
+}
+h3{
+    justify-content: center;
+   /* transform: translate(100px); */
+   text-align: justify;
+   width: 100%;
+   
+}
+/* about trek */
+.para{
+    text-align: justify;
+    width:80%
+    ;
+}
+/* price table */
+.price{
+    border: 2px solid black;
+    padding: 0px 100px 0px 100px;
+    
+}/* navigation bar */
+.navb{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 10px 10px 10px;
+    background: linear-gradient(transparent,green);
+    text-decoration: none;
+    margin: 0px; 
+    
+}
+.sticky{
+    justify-content: flex-end;
+    background: linear-gradient(0deg,transparent,skyblue,skyblue,skyblue);
+    
+}
+
+/* content in nav bar */
+.nbar{
+    margin: 0px 40px 0px 10px;
+    font-size: larger;
+    font-style: black;
+   
+}
+.nbar:hover{
+    /* border: 2px solid black; */
+   background-color:  skyblue;
+
+}
+
+.nbar::placeholder{
+    font-size: larger;
+    
+}
+a:link{
+    text-decoration: none;
+    cursor: pointer;
+}
+h1{
+    display:inline;
+   /* font-size:40px;  */
+}
